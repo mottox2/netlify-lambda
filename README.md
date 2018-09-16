@@ -4,6 +4,11 @@ This is a small CLI tool that helps with building or serving lambdas built with 
 
 The goal is to make it easy to work with Lambda's with modern ES6 without being dependent on having the most state of the art node runtime available in the final deployment environment and with a build that can compile all modules into a single lambda file.
 
+## Install
+```bash
+npm install --save-dev @mottox2/netlify-lambda
+```
+
 ## Usage
 
 Netlify lambda installs two commands:
